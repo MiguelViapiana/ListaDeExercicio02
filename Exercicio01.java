@@ -14,9 +14,11 @@ public class Exercicio01 {
             if (num[i] < media) {
                 System.out.printf("\nO valor %.1f é MENOR que a média.", num[i]);
             }
-            if (num[i] > media) {
+            else if (num[i] > media) {
                 System.out.printf("\nO valor %.1f é MAIOR que a média.", num[i]);
-            }
+            }else if(num[i] == media{
+                System.out.printf("\nO valor %.1f é IGUAL que a média.", num[i]);
+            } 
         }
     }
 }
